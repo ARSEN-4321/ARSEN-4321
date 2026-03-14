@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我 - 李亚森</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background-color: #f4f7fb;
+            padding: 0 20px 40px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+        .navbar {
+            background: #1e3c72;
+            padding: 15px 30px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 25px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+        .navbar a:hover {
+            color: #ffd966;
+        }
+        .content {
+            padding: 40px 35px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #1e3c72;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #1e3c72;
+            border-left: 6px solid #4a90e2;
+            padding-left: 18px;
+            margin: 35px 0 20px;
+        }
+        h3 {
+            font-size: 1.3rem;
+            color: #2c3e50;
+            margin: 25px 0 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+        }
+        .date {
+            font-weight: normal;
+            font-size: 1rem;
+            color: #6c7a8e;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 24px;
+        }
+        li::before {
+            content: "•";
+            color: #4a90e2;
+            font-weight: bold;
+            font-size: 1.4rem;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+        .card {
+            background: #f8fafd;
+            border-radius: 10px;
+            padding: 20px 25px;
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 35px;
+            background: #f0f4fa;
+            color: #5a6e85;
+            font-size: 0.9rem;
+            border-top: 1px solid #d9e2ef;
+        }
+        @media (max-width: 600px) {
+            h3 {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html">🏠 首页</a>
+            <a href="about.html">📄 关于我</a>
+        </div>
+
+        <div class="content">
+            <h1>关于我</h1>
+
+            <h2>📌 实践经历</h2>
+            <div class="card">
+                <h3>河南新网检测有限公司 实习 <span class="date">2024.06 - 2024.07</span></h3>
+                <p>了解生态环境检测工作，熟悉各种装置的操作，参与水体中重金属、溶解氧、BOD检测。</p>
+            </div>
+            <div class="card">
+                <h3>普通活性污泥法处理生活污水 实验 <span class="date">2024.05 - 2024.06</span></h3>
+                <p>负责污水收集、活性污泥培养制备工作，熟悉了生活污水处理方法，培养了对科研的兴趣。</p>
+            </div>
+            <div class="card">
+                <h3>马头岗污水处理厂 实习 <span class="date">2023.05 - 2023.06</span></h3>
+                <p>配合老师按照计划完成各项工作，熟练学习污水处理厂的工作原理、运作方式，对污水处理原理和工艺流程有更深的了解。</p>
+            </div>
+
+            <h2>🏅 荣誉证书</h2>
+            <div class="card">
+                <ul>
+                    <li>2022-2023 荣获"优秀共青团员"</li>
+                    <li>2023-2025 通过 CET-4、CET-6</li>
+                </ul>
+            </div>
+
+            <h2>🏃 运动与体育</h2>
+            <div class="card">
+                <p><strong>体育成绩：</strong></p>
+                <ul>
+                    <li>2023 校运会 1500米 亚军</li>
+                    <li>2024 院级篮球赛 MVP</li>
+                    <li>多次代表学院参加校马拉松接力赛</li>
+                    <li>院篮球队主力成员</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>日常爱好：</strong>每周坚持跑步30公里以上，篮球训练2次，喜欢研究运动康复与体能训练。</p>
+            </div>
+
+            <h2>📝 自我评价</h2>
+            <div class="card">
+                <p>本人责任心强，对待工作认真负责，注重细节，能够确保任务的高质量完成。有团队合作精神，善于与团队成员沟通协作，尊重他人意见。</p>
+                <p style="margin-top: 10px;">工作生活中积极主动，能够主动承担工作任务，不断寻求自我提升和进步。兴趣爱好跑步和打篮球，适应能力强，能够快速适应新环境和新任务，具备较强的抗压能力，能够在压力下保持良好的工作状态。学习能力强，对新知识、新技能有较强的学习能力和接受能力，能够不断提升自己的专业素养。</p>
+            </div>
+
+            <h2>📞 联系方式</h2>
+            <div class="card">
+                <p>📧 邮箱：ys431478744@163.com</p>
+                <p>📱 电话：19545650721</p>
+                <p>📍 地址：河南省</p>
+                <p>👤 政治面貌：共青团员 · 汉族</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2026 李亚森 · 个人网站
+        </div>
+    </div>
+</body>
+</html>
